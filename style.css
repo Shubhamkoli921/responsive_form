@@ -180,7 +180,7 @@ form span{
 .uploadbutton img{
     width: 20%;
 }
-@media only screen and  (max-width:700px){
+@media only screen and  (max-width:428px){
     .searchbar input{
         width: 12rem;
         height: 2.1rem;
