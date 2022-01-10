@@ -182,8 +182,8 @@ form span{
 }
 @media only screen and  (max-width:700px){
     .searchbar input{
-        width: 10rem;
-        height: 2.5rem;
+        width: 12rem;
+        height: 2.1rem;
     }
     .icons{
         justify-content: flex-end;
@@ -194,22 +194,24 @@ form span{
         height: 90%;
     }
     .icons img{
-        width: 29%;
+        width: 50%;
+        height: 54%;
 
     }
     .container-a{
-        width: 8vh;
+        width: 6vh;
     }
     
     .container-b, .innersection-c{
-        left: 5rem;
-        width: 85%;
+        left: 4rem;
+        width: 80%;
+        top: 1.5rem;
     }
     .pbar{
         column-gap: 1rem;
     }
     .pbar span{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .formdata{
         grid-template-columns: auto;
@@ -217,12 +219,21 @@ form span{
     .innerformbtn{
         align-items: flex-start;
     }
+    .innerform input{
+        width: 100%;
+    }
     .uploadbutton{
         height: 6rem;
     }
     .uploadbutton button{
         margin-top: 0rem;
         margin-bottom: 2px;
+    }
+    .uploadbutton p{
+        font-size: 1rem;
+    }
+    .innercontainera-b a{
+        top: 32rem;
     }
     
 }
